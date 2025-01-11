@@ -33,7 +33,7 @@
 ## Error Handling
 
 `int imu_get_status(void);`
-`const char *imu_get_error_string(int error_code);`
+`const char \*imu_get_error_string(int error_code);`
 
 ## Low-Level Communication Utility Functions
 

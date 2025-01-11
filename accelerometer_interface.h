@@ -5,7 +5,7 @@ typedef struct {
   int (*init)(void);
   int (*configure)(int settings);
   int (*read_data)(int *x, int *y, int *z);
-  void (*print_hello_world)();
+  void (*print_hello_world)(void);
 } AccelerometerInterface;
 
 #endif // ACCELEROMETER_INTERFACE_H
